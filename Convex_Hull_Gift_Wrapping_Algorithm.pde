@@ -61,7 +61,7 @@ void findExtremePoints() {
       if ((endpoint == pointOnHull) || (pts[j].isLeftOfLine(wrap.get(i), endpoint)))
           endpoint = pts[j];
     }
-    i += 1;
+    i++;
     pointOnHull = endpoint;
   } while (endpoint.x != wrap.get(0).x && endpoint.y != wrap.get(0).y);
 }
