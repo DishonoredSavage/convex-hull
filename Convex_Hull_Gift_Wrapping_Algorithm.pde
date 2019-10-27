@@ -67,7 +67,7 @@ void findExtremePoints() {
 }
 
 void joinExtremePoints(int i) {
-  strokeWeight(0.5);
+  strokeWeight(1);
   stroke(255, 0, 0);
   if (i == wrap.size()-1) 
     line(wrap.get(i).x, wrap.get(i).y, wrap.get(0).x, wrap.get(0).y);
